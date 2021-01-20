@@ -14,12 +14,78 @@ a {
     padding: 20px;
 }
 
-#header {
+#header,
+#box-value {
     background: #fff;
     padding: 20px;
+    margin-bottom: 15px;
+}
+
+.title-header {
+    padding-left: 21px;
 }
 
 #box-select {
     padding: 20px;
     background: #e9ecef;
+}
+
+.bg-input-sm,
+.bg-input {
+    background: #f1f2f3;
+}
+
+.bg-input-sm {
+    width: 75%;
+}
+
+.bg-input-sm select {
+    width: 30%;
+}
+
+.bg-input select {
+    width: 25%;
+}
+
+.width-input select {
+    width: 53%;
+}
+
+.width select {
+    width: 60%;
+}
+
+.header-box,
+.search,
+.show-number {
+    display: flex;
+}
+
+.header-box p {
+    margin-bottom: 0;
+    flex-basis: 3%;
+    line-height: 38px;
+}
+
+.search span,
+.show-number span {
+    margin-right: 10px;
+    line-height: 38px;
+}
+
+.search {
+    margin-right: 50px;
+    flex-basis: 6%;
+}
+
+.search input {
+    background: #e9ecef;
+}
+
+.show-number {
+    flex-basis: 3%;
+}
+
+.table thead {
+    background-color: #c1e2fc
 }
