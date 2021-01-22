@@ -63,8 +63,9 @@ a {
 
 .header-box p {
     margin-bottom: 0;
-    flex-basis: 3%;
+    flex-basis: 2%;
     line-height: 38px;
+    margin-left: 30px;
 }
 
 .search span,
