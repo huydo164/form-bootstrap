@@ -22,7 +22,8 @@ a {
 }
 
 .title-header {
-    padding-left: 21px;
+    background: none;
+    padding-left: 0;
 }
 
 #box-select {
